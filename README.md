@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12737431&assignment_repo_type=AssignmentRepo)
 # Augmenting Paths
 
 When we talked about the Ford-Fulkerson algorithm to find the maximum flow
@@ -31,3 +32,7 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## Runtime Analysis Answer
+I believe that the worst case runtime would be $\Theta (V + E)$ where V is the number of verticies and E is the number of edges. I believe this because in the worst case we have to search through the whole graph and so it would be the same or similar runtime to depth-first search or something similaer to that which is $\Theta (V + E)$.
+
