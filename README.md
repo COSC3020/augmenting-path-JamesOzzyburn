@@ -32,3 +32,7 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## Runtime Analysis Answer
+I believe that the worst case runtime would be $\Theta (V + E)$ where V is the number of verticies and E is the number of edges. I believe this because in the worst case we have to search through the whole graph and so it would be the same or similar runtime to depth-first search or something similaer to that which is $\Theta (V + E)$.
+
